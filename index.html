@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Profissional</title>
+    <!-- Importando o CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Nosso CSS customizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#perfil">Meu Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção de Perfil (Hero) -->
+    <header id="perfil" class="bg-primary text-white text-center py-5 mt-5">
+        <div class="container py-5">
+            <h1 class="display-4 fw-bold">Olá, eu sou o David Mendes</h1>
+            <p class="lead">Transformando desafios em soluções através da tecnologia e da gestão.</p>
+            <a href="#projetos" class="btn btn-light btn-lg mt-3">Ver Meus Projetos</a>
+        </div>
+    </header>
+
+    <!-- Seção de Projetos -->
+    <section id="projetos" class="container py-5">
+        <h2 class="text-center mb-4">Meus Projetos</h2>
+        <div class="row g-4">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 1</h5>
+                        <p class="card-text">Descrição breve do primeiro projeto desenvolvido durante as aulas ou estudos complementares.</p>
+                        <a href="#" class="btn btn-primary btn-sm" target="_blank">Ver Repositório</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 2</h5>
+                        <p class="card-text">Descrição breve do segundo projeto, destacando as tecnologias aplicadas.</p>
+                        <a href="#" class="btn btn-primary btn-sm" target="_blank">Ver Repositório</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 3</h5>
+                        <p class="card-text">Descrição breve do terceiro projeto ou aplicação web interativa.</p>
+                        <a href="#" class="btn btn-primary btn-sm" target="_blank">Ver Repositório</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recurso Novo: Seção de Habilidades -->
+    <section id="habilidades" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Habilidades & Tecnologias</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+                    <div class="p-3 bg-white rounded shadow-sm">
+                        <h5>HTML5 & CSS3</h5>
+                        <p class="text-muted small">Marcação e Estilização</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="p-3 bg-white rounded shadow-sm">
+                        <h5>Bootstrap</h5>
+                        <p class="text-muted small">Design Responsivo</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="p-3 bg-white rounded shadow-sm">
+                        <h5>JavaScript</h5>
+                        <p class="text-muted small">Linguagem de Script</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="p-3 bg-white rounded shadow-sm">
+                        <h5>Git & GitHub</h5>
+                        <p class="text-muted small">Controle de Versão</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="container py-5">
+        <h2 class="text-center mb-4">Contato</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <p>Quer entrar em contato ou conhecer mais do meu trabalho? Me encontre nas redes abaixo:</p>
+                <a href="https://github.com/SEU-USUARIO" class="btn btn-dark m-1" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" class="btn btn-outline-primary m-1" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 - Desenvolvido com dedicação.</p>
+    </footer>
+
+    <!-- Script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
